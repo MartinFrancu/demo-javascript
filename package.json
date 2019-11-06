@@ -1,0 +1,12 @@
+{
+  "name": "demo-javascript",
+  "version": "1.0.0",
+  "description": "JavaScript demo repository for DX Scanner",
+  "main": "src/index.js",
+  "repository": "git@github.com:DXHeroes/demo-javascript.git",
+  "author": "Prokop Simek <prokop@dxheroes.io>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}

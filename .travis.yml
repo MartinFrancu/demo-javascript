@@ -1,3 +1,15 @@
 language: node_js
 node_js:
-  - 7
+  - "12"
+
+cache:
+  yarn: true
+  directories:
+    - node_modules
+
+script:
+  - node --version
+  - yarn --version
+  - yarn start
+  - yarn global add dx-scanner
+  - dx-scanner --fail=off
